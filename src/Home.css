@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    background: linear-gradient(#fcbb6d,#d8737f,#ab6c82,#685d79,#475c7a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Georgia", serif;
+}
+
+#end-game {
+    line-height: 100vh;
+    text-align: center;
+    display: none;
+}
+
+#end-game span {
+    color: white;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#end-status {
+    font-size: 4em;
+}
+
+#main h1 {
+    color: white;
+    font-size: 4em;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#main h2 {
+    color: white;
+}
+
+.center {
+    position: relative;
+    margin: 15% auto;
+}
+
+.center.small {
+    width: 40%;
+    min-width: 500px;
+}
+
+.center.medium {
+    width: 60%; 
+    min-width: 720px;
+}
+
+table {
+    width: 100%;
+}
+
+table.number {
+    table-layout: fixed;
+    font-size: 1.2em;
+}
+
+table.number tr td:last-child{
+    width: 100px;
+}
+
+#input-form {
+    padding-top: 20px;
+}
+
+#input-word {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    border: 1.5px solid #898989;
+    border-radius: 4px; 
+    padding: 8px;
+    font-size: 1.125em;
+    box-sizing: border-box;
+    color: white;
+    opacity: 0.6;
+}
+
+#input-word:focus {
+    outline: none;
+    border: 1.5px solid #f26600;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+}
+
+#input-word::placeholder {
+    color: white;
+}
+
+#box-input > #failure-notif {
+    text-align: center;
+    color: red;
+    font-size: 1.5em; 
+    margin-top: 10%;
+}
+
+span {
+    color: white;
+    font-size: 1.8em;
+}
+
+#btn-enter {
+    background: #179e63;
+    float: right;
+    border-color:  #179e63;
+}
+
+#btn-enter:hover {
+    background: white;
+    color: #179e63;
+}
+
+#btn-skip {
+    background: #f26600;
+    border-color:  #f26600;
+}
+
+#btn-skip:hover {
+    background: white;
+    color: #f26600;
+}
+
+.btn-primary {
+    color: #ffffff;
+    margin-top: 20px;
+    outline: none;
+    border: solid;
+    padding: 7px 30px;
+    font-size: 1.15em;
+    border-radius: 4px;
+    cursor: pointer;
+}
