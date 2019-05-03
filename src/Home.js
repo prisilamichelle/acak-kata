@@ -23,7 +23,6 @@ class Home extends Component {
             correctWord: array[index]
         });
         this.shuffleWord(array[index]);
-        console.log(array[index]);
     }
     
     /* Fisher-Yates shuffle */
@@ -41,7 +40,72 @@ class Home extends Component {
         this.setState({
             shuffledWord: wordarray.join("")
         });
-        console.log(wordarray.join(""));
+    }
+
+    updateWord() {
+        let deletedWord = this.state.words[this.state.index];
+        this.setState({
+            words: this.state.words.filter(function(word) { 
+            return word !== deletedWord
+        })})
+        if (this.state.words.length) {
+            this.pickRandomWord(this.state.words);
+        } else {
+            this.endgame(true,this.state.score);
+        }
+    }
+
+    checkLife() {
+        if (this.state.life === 0) {
+            this.endgame(false,this.state.score);
+        }
+    }
+
+    endgame(win,finalscore) {
+        document.getElementById('main').style.display = "none";
+        document.getElementById('end-game').style.display = "block";
+        document.getElementById('final-score').innerHTML = finalscore;
+        if (win) {
+            document.getElementById('end-status').innerHTML = "YOU WIN!";
+        } else {
+            document.getElementById('end-status').innerHTML = "GAME OVER!";
+        }
+    }
+
+    showStatus(status){
+        if (status === true) {
+            document.getElementById('status').innerHTML = "<h2>BENAR! Poin Anda : " + this.state.score + "<h2>";
+            document.getElementById('input-word').value = "";
+        } else {
+            document.getElementById('status').innerHTML = "<h2>SALAH! Silakan coba lagi.<h2>";
+        }
+    }
+
+    updateStatusScore() {
+        this.setState({
+            score: this.state.score + 1
+        }, () => this.showStatus(true));
+    }
+
+    updateLife() {
+        this.setState({
+            life: this.state.life - 1
+        }, this.checkLife);
+    }
+
+    checkInput = () => {
+        let input = document.getElementById('input-word').value;
+        if (input === this.state.correctWord) {
+            this.updateStatusScore();
+            this.updateWord();
+        } else {
+            this.showStatus(false);
+        }
+    }
+
+    skipWord = () => {
+        this.updateWord();
+        this.updateLife();
     }
 
     componentDidMount() {
