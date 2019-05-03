@@ -58,7 +58,11 @@ table.number {
     font-size: 1.2em;
 }
 
-table.number tr td:last-child{
+table tbody tr td:first-child{
+    float: left;
+}
+
+table.number tbody tr td:last-child{
     width: 100px;
 }
 
