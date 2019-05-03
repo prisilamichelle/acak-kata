@@ -2,7 +2,7 @@
   "name": "acak-kata",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prisilamichelle.github.io/game-acak-kata",
+  "homepage": "https://prisilamichelle.github.io/acak-kata",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
