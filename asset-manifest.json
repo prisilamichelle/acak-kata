@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/acak-kata/static/css/main.584f321a.chunk.css",
-    "main.js": "/acak-kata/static/js/main.3d34a4d6.chunk.js",
-    "main.js.map": "/acak-kata/static/js/main.3d34a4d6.chunk.js.map",
+    "main.css": "/acak-kata/static/css/main.d2066b46.chunk.css",
+    "main.js": "/acak-kata/static/js/main.0e21d006.chunk.js",
+    "main.js.map": "/acak-kata/static/js/main.0e21d006.chunk.js.map",
     "runtime~main.js": "/acak-kata/static/js/runtime~main.870a78b7.js",
     "runtime~main.js.map": "/acak-kata/static/js/runtime~main.870a78b7.js.map",
-    "static/js/2.b41502e9.chunk.js": "/acak-kata/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/acak-kata/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/acak-kata/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/acak-kata/static/js/2.d6a534e5.chunk.js.map",
     "index.html": "/acak-kata/index.html",
-    "precache-manifest.dd0609b1d022f4152936c7a48e8f1c6e.js": "/acak-kata/precache-manifest.dd0609b1d022f4152936c7a48e8f1c6e.js",
+    "precache-manifest.2c475cc73ff018753d972da6c3b7a47d.js": "/acak-kata/precache-manifest.2c475cc73ff018753d972da6c3b7a47d.js",
     "service-worker.js": "/acak-kata/service-worker.js",
-    "static/css/main.584f321a.chunk.css.map": "/acak-kata/static/css/main.584f321a.chunk.css.map",
-    "static/media/logo.svg": "/acak-kata/static/media/logo.5d5d9eef.svg"
+    "static/css/main.d2066b46.chunk.css.map": "/acak-kata/static/css/main.d2066b46.chunk.css.map"
   }
 }
