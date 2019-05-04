@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de453b8ad11e8d028d76a1ab5d7743e1",
+    "revision": "9f35b027c042f2cd46e9001ba39ce211",
     "url": "/acak-kata/index.html"
   },
   {
-    "revision": "b953ce04fced2ca9d60c",
+    "revision": "06813232b9a14c72d447",
     "url": "/acak-kata/static/css/main.082f4946.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/acak-kata/static/js/2.d6a534e5.chunk.js"
   },
   {
-    "revision": "b953ce04fced2ca9d60c",
-    "url": "/acak-kata/static/js/main.328072e5.chunk.js"
+    "revision": "06813232b9a14c72d447",
+    "url": "/acak-kata/static/js/main.89ad1381.chunk.js"
   },
   {
     "revision": "6a7939d8d7645a850a90",
