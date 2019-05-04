@@ -127,7 +127,14 @@ class Home extends Component {
                         error
                     });
                 }
-            )
+            );
+
+        document.getElementById("input-form").onkeypress = function(e) {
+            let key = e.charCode || e.keyCode || 0;     
+            if (key === 13) {
+                e.preventDefault();
+            }
+        }
     }
 
     render() {
